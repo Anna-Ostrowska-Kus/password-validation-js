@@ -23,13 +23,8 @@ const showInfo =()=>{
     }
 }
 
-pass.addEventListener('keyup', function(e){
-    if (e.keyCode === 13) {
-        showInfo()
-        
-    }
-})
-// pass.addEventListener('input', showInfo)
+
+pass.addEventListener('input', showInfo)
 
 
 
