@@ -8,18 +8,18 @@ const minValue = 10;
 
 
 const showInfo =()=>{
-    console.log(pass.value);
+    
     if (pass.value.length>minValue && letters.test(pass.value) && numbers.test(pass.value) && special.test(pass.value) ){
-        p.textContent = "Very strong password"
+        p.textContent = "Bardzo silne hasło"
 
     } else if( pass.value.length>minValue && letters.test(pass.value) && numbers.test(pass.value)){
-        p.textContent = "Strong password"
+        p.textContent = "Silne hasło"
     } else if(pass.value === ""){
         p.textContent = "Nie podałeś hasła..."
     }
     else{
     
-        p.textContent= "Weak password"
+        p.textContent= "Słabe hasło"
     }
 }
 
